@@ -16,4 +16,8 @@ public class NewclassTest {
 		System.out.println("Added test script to check conflict process");
 	}
 
+	@Test
+	public void addByLeadTest() {
+		System.out.println("added by lead");
+	}
 }
