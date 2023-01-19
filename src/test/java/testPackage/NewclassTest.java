@@ -24,6 +24,10 @@ public class NewclassTest {
 	@Test
 	public void addByLeadTest() {
 		System.out.println("added by lead");
-		
+	}
+	
+	@Test
+	public void newcollabTest() {
+		System.out.println("another by collab");
 	}
 }
