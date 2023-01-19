@@ -10,5 +10,10 @@ public class NewclassTest {
 		System.out.println("changes by collaborator");
 		System.out.println("another by collab");
 	}
+	
+	@Test
+	public void addedTest() {
+		System.out.println("Added test script to check conflict process");
+	}
 
 }
