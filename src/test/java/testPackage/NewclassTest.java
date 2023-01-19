@@ -23,7 +23,7 @@ public class NewclassTest {
 
 	@Test
 	public void addByLeadTest() {
-		System.out.println("added by lead");
+		System.out.println("made changes");
 		
 	}
 }
