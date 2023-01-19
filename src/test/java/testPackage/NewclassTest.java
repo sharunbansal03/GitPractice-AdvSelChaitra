@@ -15,5 +15,10 @@ public class NewclassTest {
 	public void addedTest() {
 		System.out.println("Added test script to check conflict process");
 	}
+	
+	@Test
+	public void collaboratorTest() {
+		System.out.println("push by collab");
+	}
 
 }
