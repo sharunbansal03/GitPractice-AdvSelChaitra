@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sharu\AppData\Local\Temp\testng-eclipse-1401037540\testng-customsuite.xml</span>
+                    <span>C:\Users\sharu\AppData\Local\Temp\testng-eclipse-522576513\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testPackage.NewclassTest" class="method navigator-link" hash-for-method="addByLeadTest">addByLeadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testPackage.NewclassTest" class="method navigator-link" hash-for-method="addedTest">addedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testPackage.NewclassTest" class="method navigator-link" hash-for-method="collaboratorTest">collaboratorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testPackage.NewclassTest" class="method navigator-link" hash-for-method="newTest">newTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testPackage.NewclassTest" class="method navigator-link" hash-for-method="newcollabTest">newcollabTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,9 +147,37 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="addByLeadTest">
+                  </a> <!-- addByLeadTest -->
+                  <span class="method-name">addByLeadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addedTest">
+                  </a> <!-- addedTest -->
+                  <span class="method-name">addedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="collaboratorTest">
+                  </a> <!-- collaboratorTest -->
+                  <span class="method-name">collaboratorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="newTest">
                   </a> <!-- newTest -->
                   <span class="method-name">newTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newcollabTest">
+                  </a> <!-- newcollabTest -->
+                  <span class="method-name">newcollabTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +185,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sharu\AppData\Local\Temp\testng-eclipse-1401037540\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sharu\AppData\Local\Temp\testng-eclipse-522576513\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -186,16 +234,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'newTest')
+data.setCell(0, 1, 'addByLeadTest')
 data.setCell(0, 2, 'testPackage.NewclassTest')
-data.setCell(0, 3, 21);
+data.setCell(0, 3, 22);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'newcollabTest')
+data.setCell(1, 2, 'testPackage.NewclassTest')
+data.setCell(1, 3, 7);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addedTest')
+data.setCell(2, 2, 'testPackage.NewclassTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'collaboratorTest')
+data.setCell(3, 2, 'testPackage.NewclassTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'newTest')
+data.setCell(4, 2, 'testPackage.NewclassTest')
+data.setCell(4, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 ms</span>
+              <span class="suite-total-time">Total running time: 36 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -223,8 +287,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testPackage.NewclassTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">newTest</span>
+                <span class="method-name">addByLeadTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addedTest</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">collaboratorTest</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newTest</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newcollabTest</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
